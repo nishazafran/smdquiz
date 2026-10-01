@@ -27,4 +27,4 @@ jobs:
         run: npm ci
 
       - name: Export Expo web build
-        run: npx expo export --platform web
+        run: npx expo export --platform invalid
