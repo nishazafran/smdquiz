@@ -38,7 +38,13 @@ export default function HomeScreen() {
             Welcome to&nbsp;Expo
           </ThemedText>
         </ThemedView>
+<ThemedText type="subtitle" style={styles.studentInfo}>
+  Name: YOUR NAME
+</ThemedText>
 
+<ThemedText type="subtitle" style={styles.studentInfo}>
+  Roll No: YOUR ROLL NUMBER
+</ThemedText>
         <ThemedText type="code" style={styles.code}>
           get started
         </ThemedText>
@@ -85,6 +91,9 @@ const styles = StyleSheet.create({
   title: {
     textAlign: 'center',
   },
+studentInfo: {
+  textAlign: 'center',
+},
   code: {
     textTransform: 'uppercase',
   },
